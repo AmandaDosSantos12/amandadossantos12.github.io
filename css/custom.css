@@ -1,0 +1,30 @@
+/* Apply Lato to the main body text */
+body {
+    font-family: 'Lato', sans-serif; /* Use Lato, fallback to generic sans-serif */
+    /* Keep other styles from previous <style> block if needed */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Optional: Ensure headings also use Lato (perhaps bold) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; /* Use the bold weight we imported */
+}
+
+/* Keep other styles from previous <style> block */
+main {
+    flex: 1;
+}
+
+.navbar .bi {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+.nav-link {
+    margin-right: 0.5rem;
+}
+
+/* Add any other custom styles below */
