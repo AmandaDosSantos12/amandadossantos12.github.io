@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+
 document.addEventListener("DOMContentLoaded", () => {
   const input = document.getElementById("input");
   const sendBtn = document.getElementById("send");
