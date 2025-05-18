@@ -1,5 +1,3 @@
-import dotenv from "dotenv";
-
 document.addEventListener("DOMContentLoaded", () => {
   const input = document.getElementById("input");
   const sendBtn = document.getElementById("send");
@@ -17,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     try {
-      const response = await fetch("https://rpg-server-793630530088.us-central1.run.app/chat", {
+      const response = await fetch("https://rpg-server-793630530088.us-east4.run.app/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
